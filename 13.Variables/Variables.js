@@ -149,7 +149,7 @@ const truthyCount = array.filter(Boolean).length;
 
 
 //13.7 Avoid linebreaks befor or after = in an assignment. If your assignment violates amx-len, surround the value in parens.
-//Why? Linebreaks surrounding = can obfuscate he value of assignment.
+//Why? Linebreaks surrounding = can obfuscate(混淆) the value of assignment.
 //bad code
 /**
  * const foo = 
